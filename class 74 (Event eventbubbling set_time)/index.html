@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .grandcontainer{
+            border: 1px solid black;
+            background-color: aqua;
+            margin: 40px;
+            padding: 40px;
+        }
+        .container{
+            border: 1px solid black;
+            background-color: red;
+            margin: 40px;
+            padding: 40px;
+        }
+        .childcontainer{
+            border: 1px solid black;
+            background-color: forestgreen;
+            margin: 40px;
+            padding: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            i am a box
+        </div>
+    </div>
+    <button id="btn">change something</button>
+
+    <div class="grandcontainer">
+        <div class="container">
+            <div class="childcontainer">
+                i am a child container
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    
+    
+    <script src="script.js"></script>
+</body>
+</html>

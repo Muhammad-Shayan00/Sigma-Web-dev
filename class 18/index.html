@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    
+        .box1{
+            color: blue;
+            background-color: red;
+            padding: 10px;
+            margin: 10px;
+            border: 4px solid rgb(208, 0, 255);
+            height: 200px;
+            box-sizing: border-box; /* now the height 200 include padding and border */
+
+        }
+        .box2{
+            color: bisque;      
+            background-color: blueviolet;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="box1">
+        <h1>this is heading 1</h1>
+    </div>
+    <div class="box2">
+        <h1>this is heading 2</h1>
+    </div>
+    <p>Note: when two margin collapse the maximum margin will imprement means box1 bottom margin with box 2  top margin collapse</p>
+    
+</body>
+</html>

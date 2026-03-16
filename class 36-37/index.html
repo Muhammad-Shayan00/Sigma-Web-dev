@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+
+        }
+
+        body {
+            background-color: #f3c5f3;
+        }
+
+        nav {
+            width: 100vw;
+            height: 50px;
+            background-color: rgb(0, 43, 128);
+            position: sticky;
+            top: 0;
+        }
+
+        .section_1 {
+            height: 600px;
+            width: 100vw;
+            /* border: 2px solid red; */
+            display: flex;
+        }
+
+        .box {
+
+            background-color: darkmagenta;
+            height: 400px;
+            width: 40vw;
+            margin: auto;
+        }
+
+        .section_2 {
+           
+            height: 200px;
+            width: 100vw;
+            /* border: 2px solid red; */
+            display: flex;
+        }
+
+        .box2 {
+            background-color: darkmagenta;
+            height: 150px;
+            width: 80vw;
+            margin: auto;
+            border-radius: 80px;
+            display: flex;
+            /* enables flexbox */
+            justify-content: center;
+            /* centers text horizontally */
+            align-items: center;
+        }
+
+        div > p {
+            color: white;
+            font-weight: bolder;
+            font-size: 40px;
+        }
+        footer{            
+            height: 100px;
+            width: 100vw;
+            /* border: 2px solid red; */
+            background-color: aliceblue;
+            display: flex;
+            display: flex;
+            /* enables flexbox */
+            justify-content: center;
+            /* centers text horizontally */
+            align-items: center;
+
+        }
+        footer >p{
+            color: purple;
+
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+
+    </nav>
+    <div class="section_1">
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+    <div class="section_2">
+        <div class="box2">
+            <p>Welcome to sigma web development express</p>
+        </div>
+    </div>
+    <footer>
+        <p class="footer">all rights reserved</p>
+
+    </footer>
+
+</body>
+
+</html>

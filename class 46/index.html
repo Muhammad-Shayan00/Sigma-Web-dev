@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            height: 40vh;
+            width: 50vw;
+            background-color: aqua;
+
+        }
+        .box{
+            height: 50px;
+            width: 50px;
+            background-color: green;
+            /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+            /* apply multiple animation */
+            animation: animation1 3s ease-in-out 1s 1 forwards,
+                       animation2 3s ease-in 1s infinite    ;
+
+           
+        }
+
+
+/* animation no 1 */
+        @keyframes animation1 {
+                from{
+                    background-color: red;
+
+            }
+                to{
+                    background-color: yellow;
+                    /* transform: translate(200px); */
+                }
+                
+            }
+
+/* animation no 2             */
+        @keyframes animation2 {
+            0%{
+                transform: rotate(10deg);
+
+            }
+            20%{
+                transform: rotate(50deg);
+                
+            }
+            40%{
+                transform: rotate(100deg);
+                
+            }
+            100%{
+                transform: rotate(300deg);
+                
+            }
+            
+        }    
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            Box
+        </div>
+    </div>
+    
+</body>
+</html>

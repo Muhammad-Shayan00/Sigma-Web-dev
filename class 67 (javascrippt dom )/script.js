@@ -1,0 +1,12 @@
+console.log(document.body)
+console.log(document.body.childNodes)
+console.log(document.body.childNodes[0])
+console.log(document.body.childNodes[1])
+console.log(document.body.firstElementChild)
+console.log(document.body.lastElementChild)
+console.log(document.body.firstElementChild.lastElementChild)
+document.body.firstElementChild.lastElementChild.style.backgroundColor="green"
+console.log(document.body.firstElementChild.lastElementChild.parentElement)
+console.log(document.body.firstElementChild.children[2])
+console.log(document.body.firstElementChild.children[2].previousElementSibling)
+console.log(document.body.firstElementChild.children[2].nextElementSibling)

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        /* Note: transform ,prespective and folter property also make an element positioned */
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .parent{
+            border: 2px solid red;
+            width: 60vw;
+            padding: 10px;
+            margin: 80px;
+        }
+        .box{
+            border: 2px solid black;
+            height: 100px;
+            width: 50vw;
+        }
+        .box1{
+            background-color: blue;
+        }
+        .box2{
+            background-color: rgb(30, 160, 78);
+            position: relative;
+            top: -20px;
+            left: 20px;
+        }
+        .box3{
+            background-color: rgb(255, 0, 38);
+            position: fixed;
+        }
+        .box4{
+            background-color: rgb(221, 255, 1);
+             position: absolute;  /*  absolute means according to nearest ansester which is positioned in this case <html>*/
+            top: 10px;
+        }
+        .box5{
+            background-color: rgb(255, 0, 170);
+           
+        }
+        .box6{
+            background-color: orange;
+            height: 1000px;
+        }
+        .box7{
+            background-color: rgb(157, 198, 23);
+            position: sticky;
+           top: 0;  /* where to stick */
+           
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="box box1"></div>
+        <div class="box box2"></div>
+        <div class="box box3"></div>
+        <div class="box box4"></div>
+        <div class=" box box5"></div>
+    </div>
+    <div class=" box box7"></div>
+    <div class=" box box6">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero, nesciunt? Incidunt ut nam animi earum impedit ratione placeat, delectus, maxime sed commodi sequi voluptas, odio dolorem a mollitia adipisci. Dolore beatae perferendis nam impedit dolores repellat, cupiditate non ratione nulla numquam sapiente. Delectus optio velit obcaecati at numquam ipsam ex, nulla doloribus quaerat quisquam nisi labore perspiciatis voluptatum facilis, laudantium quam, reiciendis tempora eos? Fugit, et iste dolorem nobis corporis consequuntur, enim ratione accusamus officia saepe doloremque aliquam modi, distinctio culpa nam eos explicabo exercitationem perspiciatis fuga animi aperiam. Labore consectetur, nulla quidem pariatur dolor fugit voluptates! Veniam quod reiciendis dignissimos ex similique vitae voluptas officiis error nisi voluptatum, magni doloremque, corrupti illum? Ex incidunt vero aliquid repudiandae, sint enim recusandae unde. Quasi veritatis sint, et porro ipsa accusamus voluptatem fugit repudiandae quia nesciunt reiciendis qui, ullam explicabo fugiat iure voluptates alias quo ad eaque, minima sequi corrupti? Nam repudiandae aliquid tenetur, numquam quo sit accusantium repellat sed! Voluptates reiciendis soluta mollitia fugiat minus esse repellendus dignissimos recusandae aperiam corporis nemo dicta suscipit molestiae provident ipsam cupiditate quos libero odio, eaque omnis nam fugit! Quis sequi accusamus aut, asperiores optio pariatur. Atque quasi non consequuntur debitis dolore reiciendis neque nesciunt.
+        </p>
+    </div>
+    
+    
+</body>
+</html>

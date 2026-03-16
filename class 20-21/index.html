@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .red{
+            color: red;
+        }
+        .yellow{
+            color: bisque !important ;
+            color: yellow ;
+        }
+        #green{
+            color: green;
+        }
+        .purple{
+            color: purple;
+        }
+
+
+    </style>
+</head>
+<body>
+    <p>
+        there are some rules that which properties apply when more that one styling is applying
+        1. if selector is same last one will apply
+        2.If selector is different so the specific selector apply:
+          inline style > id selector > attribute or class selector >  element selector > universal selector
+        3. the keyword important has highest priority in same color 
+
+        <h1 class="red yellow purple">i am heading 1</h1>
+        <h2 class="purple" id="green">i am heading 2</h2>
+        <h3 class="yellow ">i am heading 3</h3>
+
+    </p>
+</body>
+</html>

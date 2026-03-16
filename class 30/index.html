@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root{
+            --color:blue;
+            /* --seccolor:rgb(0, 255, 128); */
+            --defmar:20px;
+        }
+        .box{
+            height: 100px;
+            width: 300px;
+            border: 2px solid red;
+            margin: var(--defmar);
+            
+        }
+        .box1{
+            background-color: var(--color);
+
+        }
+        .box2{
+             background-color: var(--seccolor,red);
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="box box1"> i am div 1</div>
+    <div class="box box2"> i am div 2</div>
+    
+</body>
+</html>

@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <meta charset="UTF-8">
+    <link rel="icon" href="assets/logogreen.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="maincontainer">
+        <div class="leftsection ">
+            <div class="lefttopbox">
+                <div class="box1">
+                    <img class="logo" src="assets/logo.png" alt="logo">
+                    <div class="close">
+                        <svg width="25px" height="25px" viewBox="0 0 24 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M5.29289 5.29289C5.68342 4.90237 6.31658 4.90237 6.70711 5.29289L12 10.5858L17.2929 5.29289C17.6834 4.90237 18.3166 4.90237 18.7071 5.29289C19.0976 5.68342 19.0976 6.31658 18.7071 6.70711L13.4142 12L18.7071 17.2929C19.0976 17.6834 19.0976 18.3166 18.7071 18.7071C18.3166 19.0976 17.6834 19.0976 17.2929 18.7071L12 13.4142L6.70711 18.7071C6.31658 19.0976 5.68342 19.0976 5.29289 18.7071C4.90237 18.3166 4.90237 17.6834 5.29289 17.2929L10.5858 12L5.29289 6.70711C4.90237 6.31658 4.90237 5.68342 5.29289 5.29289Z"
+                                fill="white" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="iconbox">
+                    <img class="icon" src="assets/homeicon.png" alt="logo">
+                    <div class="iconname">
+                        Home
+                    </div>
+                </div>
+                <div class="iconbox">
+                    <img class="icon" src="assets/search icon.png" alt="logo">
+                    <div class="iconname">
+                        Search
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="leftbottombox">
+                <div class="libraryiconbox">
+                    <img class="libraryicon" src="assets/library icon.png" alt="logo">
+                    <div class="libraryiconname">
+                        Library
+                    </div>
+                </div>
+                <div class="songmainbox">
+                    <!-- <div class="songbox">
+                    <img class="songicon" src="assets/songicon.png" alt="">
+                    <div class="songdetailbox">
+                        <div class="songname">
+                            Pal Pal jina mahal tera
+
+                        </div>
+                        <div class="artistname">
+                            Anuv Jain
+
+                        </div>
+
+                    </div>
+                    <div class="playnowbox">
+                        <img class="playicon" src="assets/playicon.png" alt="">
+                        <div class="playtext">
+                            Play
+                        </div>
+
+                    </div>
+
+                </div> -->
+
+
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="rightsection ">
+            <div class="navbar">
+                <div class="hamburger">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+                <div class="arrowbox">
+                    <svg class="leftarrowicon" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                        <polygon fill="currentColor"
+                            points="277.919,132.921 154.839,256 277.919,379.072 318.552,338.438 236.122,256 318.552,173.562" />
+                        <path fill="currentColor" d="M256.008,0C114.605,0.016,0.016,114.606,0,256c0.015,141.394,114.605,255.984,256.008,256
+            C397.394,511.984,511.983,397.394,512,256C511.983,114.606,397.394,0.016,256.008,0z M408.585,408.585
+            c-39.11,39.079-92.93,63.189-152.577,63.205c-59.655-0.016-113.483-24.126-152.594-63.205C64.328,369.475,40.217,315.647,40.21,256
+            c0.007-59.654,24.118-113.474,63.204-152.585c39.111-39.086,92.939-63.197,152.594-63.205
+            c59.646,0.008,113.466,24.119,152.577,63.205c39.079,39.11,63.197,92.93,63.205,152.585
+            C471.782,315.647,447.664,369.475,408.585,408.585z" />
+                    </svg>
+                    <svg class="rightarrowicon" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                        <polygon fill="currentColor"
+                            points="193.447,173.562 275.877,256 193.447,338.438 234.081,379.08 357.161,256 234.081,132.928 	" />
+                        <path fill="currentColor" d="M256.008,0C114.605,0.016,0.016,114.606,0,256c0.015,141.394,114.605,255.984,256.008,256
+            C397.394,511.984,511.983,397.394,512,256C511.983,114.606,397.394,0.016,256.008,0z M408.585,408.585
+            c-39.11,39.079-92.93,63.189-152.577,63.205c-59.655-0.016-113.483-24.126-152.594-63.205C64.328,369.475,40.217,315.647,40.21,256
+            c0.007-59.654,24.118-113.474,63.204-152.585c39.111-39.086,92.939-63.197,152.594-63.205
+            c59.646,0.008,113.466,24.119,152.577,63.205c39.079,39.11,63.197,92.93,63.205,152.585
+            C471.782,315.647,447.664,369.475,408.585,408.585z" />
+                    </svg>
+
+                </div>
+                <div class="buttonbox">
+                    <button class="signup">Sign up</button>
+                    <button class="login">Login</button>
+                </div>
+            </div>
+            <div class="headingbox">Spotify Playlist</div>
+            <div class="songcardbox">
+                
+
+                
+                
+                
+            </div>
+            <!-- <button id="playBtn">Play</button> -->
+            <div class="songcontrolsbox">
+                <div class="uppersongcontrolbox">
+                    <div class="songnameabovetimeline">
+                        Song name here
+                    </div>
+                    <div class="songcontrolbuttonbox">
+                        <svg id="previousbutton" style="transform: rotate(180deg);" width="25px" height="25px"
+                            viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#000000"
+                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="miter">
+                            <polygon points="4 4 4 20 16 12 4 4" fill="#059cf7" opacity="0" stroke-width="0"></polygon>
+                            <polygon points="4 4 4 20 16 12 4 4"></polygon>
+                            <line x1="20" y1="4" x2="20" y2="20"></line>
+                        </svg>
+
+                        <div id="playbutton" class="playbtn">
+                            <svg class="play-icon" width="25" height="25" viewBox="0 0 24 24">
+                                <path d="M5 3L19 12L5 21V3Z" fill="black" />
+                            </svg>
+
+                            <svg class="pause-icon" width="25" height="25" viewBox="0 0 24 24">
+                                <rect x="6" y="4" width="4" height="16" fill="black" />
+                                <rect x="14" y="4" width="4" height="16" fill="black" />
+                            </svg>
+                        </div>
+                        <svg id="nextbutton" width="25px" height="25px" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#000000" stroke-width="1.5"
+                            stroke-linecap="round" stroke-linejoin="miter">
+                            <polygon points="4 4 4 20 16 12 4 4" fill="#059cf7" opacity="0" stroke-width="0"></polygon>
+                            <polygon points="4 4 4 20 16 12 4 4"></polygon>
+                            <line x1="20" y1="4" x2="20" y2="20"></line>
+                        </svg>
+                    </div>
+                    <div class="timeindandvolumeadjusterbox">
+                        <div class="timingabovetimeline">
+
+                        </div>
+                        <div class="volumeadjusterbox">
+                            <svg width="15px" height="15px" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_15_174)">
+                                    <rect width="24" height="24" fill="white" />
+                                    <path d="M3 16V8H6L11 4V20L6 16H3Z" stroke="#000000" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path d="M13 9C13 9 15 9.5 15 12C15 14.5 13 15 13 15" stroke="#000000"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                    <path d="M15 7C15 7 18 7.83333 18 12C18 16.1667 15 17 15 17" stroke="#000000"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                    <path d="M17 5C17 5 21 6.16667 21 12C21 17.8333 17 19 17 19" stroke="#000000"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_15_174">
+                                        <rect width="24" height="24" fill="white" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                            <div class="volumecontrol">
+                                <input type="range" id="volumeslider" min="0" max="100" value="100">
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="timeline">
+                    <div class="timelinecircle">
+
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+
+
+    </div>
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
