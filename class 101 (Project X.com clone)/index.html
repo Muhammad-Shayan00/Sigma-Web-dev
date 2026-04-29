@@ -1,0 +1,405 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="src/output.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
+</head>
+
+<body class=" flex bg-black min-h-screen">
+
+    <!-- leftpart -->
+    <div class="leftpart bg-black  h-screen w-[30%] text-white pl-30 pt-3 flex flex-col fixed top-0 left-0">
+
+        <svg viewBox="0 0 24 24" class="w-5 h-5 fill-white/80 hover:fill-white transition">
+            <path
+                d="M21.742 21.75l-7.563-11.179 7.056-8.321h-2.456l-5.691 6.714-4.54-6.714H2.359l7.29 10.776L2.25 21.75h2.456l6.035-7.118 4.818 7.118h6.191-.008zM7.739 3.818L18.81 20.182h-2.447L5.29 3.818h2.447z" />
+        </svg>
+
+        <div class="flex items-center mt-6 gap-3 text-[15px] font-bold ">
+            <span class="material-symbols-rounded leading-none ">home</span>
+            <div>Home</div>
+        </div>
+        <div class="flex items-center mt-3 gap-3 text-[12px] font-light  ">
+            <span class="material-symbols-rounded  leading-none">
+                search
+            </span>
+            <div>Explore</div>
+        </div>
+        <div class="flex items-center mt-3 gap-3 text-[12px] font-light  ">
+            <span class="material-symbols-rounded">
+                notifications
+            </span>
+            <div>Notifications</div>
+        </div>
+        <div class="flex items-center mt-3 gap-3 text-[12px] font-light  ">
+            <span class="material-symbols-rounded  leading-none">
+                person_add
+            </span>
+            <div>Follow</div>
+        </div>
+        <div class="flex items-center mt-3 gap-3 text-[12px] font-light  ">
+            <span class="material-symbols-rounded">
+                chat_bubble
+            </span>
+            <div>Chat</div>
+        </div>
+        <div class="flex items-center mt-3 gap-3 text-[12px] font-light  ">
+            <span class="material-symbols-rounded ">
+                hide_source
+            </span>
+            <div>Grok</div>
+        </div>
+        <div class="flex items-center mt-3 gap-3 text-[12px] font-light  ">
+            <span class="material-symbols-rounded">
+                bookmark
+            </span>
+            <div>Bookmarks</div>
+        </div>
+        <div class="flex items-center mt-3 gap-3 text-[12px] font-light  ">
+            <span class="material-symbols-rounded">
+                mindfulness
+            </span>
+            <div>Creator Studio</div>
+        </div>
+        <div class="flex items-center mt-3 gap-3 text-[12px] font-light  ">
+            <svg viewBox="0 0 24 24" class="w-5 h-5 fill-white/80 hover:fill-white transition">
+                <path
+                    d="M21.742 21.75l-7.563-11.179 7.056-8.321h-2.456l-5.691 6.714-4.54-6.714H2.359l7.29 10.776L2.25 21.75h2.456l6.035-7.118 4.818 7.118h6.191-.008zM7.739 3.818L18.81 20.182h-2.447L5.29 3.818h2.447z" />
+            </svg>
+            <div>Premium</div>
+        </div>
+        <div class="flex items-center mt-3 gap-3 text-[12px] font-light  ">
+            <span class="material-symbols-rounded">
+                person
+            </span>
+            <div>Profile</div>
+        </div>
+        <div class="flex items-center mt-3 gap-3 text-[12px] font-light  ">
+            <span class="material-symbols-rounded">
+                more_horiz
+            </span>
+            <div>More</div>
+        </div>
+        <button class="bg-white w-fit text-black px-13 py-1.5 rounded-full text-[10px] font-medium mt-5">Post</button>
+
+
+        <div class="accountbox h-10 bg-whit mt-auto flex items-center mb-2  ">
+            <img src="images/logo.jpg" class="w-8 h-8 rounded-full">
+            <div class="ml-4 text-white">
+                <p class="text-[10px] font-bold">Synteks</p>
+                <p class="text-[8px]">@00Synteks</p>
+            </div>
+            <span class="material-symbols-rounded ml-auto mr-3 text-white !text-[15px] leading-none">
+                more_horiz
+            </span>
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- center part -->
+    <div class="borderline  w-[1px] bg-gray-500 ml-[30%]"></div>
+    <div class="centerpart bg-black  w-[40%] text-white ">
+        centerpart
+    </div>
+    <div class="borderline w-[1px] bg-gray-500"></div>
+
+
+
+
+
+
+    <!-- right part-->
+
+
+    <div class="rightpart bg-black  w-[30%] text-white pl-5 pt-2 pb-5">
+
+        <!-- searchbar -->
+
+        <div class="searcbox  w-[250px] h-[25px] border-gray-600 border-1 rounded-2xl flex items-center pl-1">
+            <span class="material-symbols-rounded text-sm leading-none scale-75 text-gray-500"
+                style="font-variation-settings: 'wght' 100;">
+                search
+            </span>
+            <span class="text-[10px]  text-gray-300">
+                Search
+            </span>
+        </div>
+
+        <!-- subscribe box -->
+
+        <div class="  w-[250px] h-[150px] mt-3 border-gray-600 border-1 rounded-2xl  pl-3">
+
+            <div class=" flex mt-3 pl-0.5">
+                <span class="text-[15px] font-bold">Subscribe to Premium</span>
+                <div
+                    class="bg-green-500 h-5 ml-2 rounded-sm text-[11px] pr-1 pl-1 font-medium text-green-800 flex  items-center">
+                    50% off</div>
+            </div>
+            <div class="text-[10px] mt-2">
+                Get rid of ads, see your analytics, boost your replies and unlock 20+ features.
+            </div>
+            <button
+                class="bg-[rgb(29,155,240)] w-fit text-white px-7 py-1.5 rounded-full text-[13px] font-bold mt-5 font-bold">Subscribe</button>
+
+        </div>
+
+
+        <!-- news box -->
+
+
+        <div class="  w-[250px] h-[270px] mt-3 border-gray-600 border-1 rounded-2xl  pl-3 pr-3">
+
+            <div class=" flex mt-1 pl-0.5 justify-between ">
+                <span class="text-[12px] font-bold">Today's news</span>
+                <div class=" h-5 ml-2 rounded-sm text-[11px] pr-1 pl-1 font-black flex  items-center">x</div>
+            </div>
+
+
+
+            <div class=" h-[60px] mt-3  ">
+                <div class="text-[10px] font-semibold">
+                    Imran's khan son reveal Father Severe Vision loss in jail
+                </div>
+                <div class="flex items-center ">
+                    <div class="imagebox flex mt-1">
+                        <img src="images/logo.jpg" class="w-5 h-5 rounded-full  z-20">
+                        <img src="images/4.jpeg" class="w-5 h-5 rounded-full z-10 -ml-2">
+                        <img src="images/5.jpeg" class="w-5 h-5 rounded-full z-1 -ml-2">
+
+                    </div>
+                    <span class="text-[9px] ml-2 mt-2 text-gray-400">2 days ago . News . 65K posts</span>
+                </div>
+
+
+
+            </div>
+            <div class=" h-[60px] mt-4   ">
+                <div class="text-[10px] font-semibold">
+                    Pakistani Commentator claims Diplomacy Saved Iranian Leaders from Israeli hit list
+                </div>
+                <div class="flex items-center ">
+                    <div class="imagebox flex mt-1">
+                        <img src="images/11.jpeg" class="w-5 h-5 rounded-full  z-20">
+                        <img src="images/10.jpeg" class="w-5 h-5 rounded-full z-10 -ml-2">
+                        <img src="images/12.jpg" class="w-5 h-5 rounded-full z-1 -ml-2">
+
+                    </div>
+                    <span class="text-[9px] ml-2 mt-4 text-gray-400">1 days ago . Others . 1,706 posts</span>
+                </div>
+
+
+
+            </div>
+
+            <div class=" h-[60px] mt-5  ">
+                <div class="text-[10px] font-semibold">
+                    Pakistan Cyber Agency Acts on Jouranlist Harassment and Media Posts
+                </div>
+                <div class="flex items-center ">
+                    <div class="imagebox flex mt-2">
+                        <img src="images/6.png" class="w-5 h-5 rounded-full  z-20">
+                        <img src="images/9.jpeg" class="w-5 h-5 rounded-full z-10 -ml-2">
+                        <img src="images/8.png" class="w-5 h-5 rounded-full z-1 -ml-2">
+
+                    </div>
+                    <span class="text-[9px] ml-2 mt-2 text-gray-400">1 days ago . News . 4,559 posts</span>
+                </div>
+
+
+
+            </div>
+
+
+
+
+
+        </div>
+
+
+        <!-- trending box -->
+
+        <div class="  w-[250px] h-[300px] mt-3 border-gray-600 border-1 rounded-2xl  pl-3 pr-3">
+
+            <div class=" flex mt-2 pl-0.5 justify-between ">
+                <span class="text-[13px] font-bold">What's Happening</span>
+            </div>
+
+
+
+
+            <div class=" h-[50px] mt-4    flex justify-between items-center ">
+                <div>
+                    <span class="text-[10px]  text-gray-400 ">Trending in Pakistan</span>
+                    <div class="text-[11px] font-semibold ">
+                        #pakchinaforbalochistan
+                    </div>
+                </div>
+                <div class="text-[18px] font-semibold ">
+                    ...
+                </div>
+            </div>
+            <div class=" h-[50px]     flex justify-between items-center ">
+                <div>
+                    <span class="text-[10px]  text-gray-400 ">Trending in Pakistan</span>
+                    <div class="text-[11px] font-semibold ">
+                        #latwogang
+                    </div>
+                </div>
+                <div class="text-[18px] font-semibold ">
+                    ...
+                </div>
+            </div>
+            <div class=" h-[50px]     flex justify-between items-center ">
+                <div>
+                    <span class="text-[10px]  text-gray-400 ">Sports . Trending</span>
+                    <div class="text-[11px] font-semibold ">
+                        #Lungi Ngidi
+                    </div>
+                </div>
+                <div class="text-[18px] font-semibold ">
+                    ...
+                </div>
+            </div>
+            <div class=" h-[50px]     flex justify-between items-center ">
+                <div>
+                    <span class="text-[10px]  text-gray-400 ">Trending in Pakistan</span>
+                    <div class="text-[11px] font-semibold ">
+                        #panama2026
+                    </div>
+                </div>
+                <div class="text-[18px] font-semibold ">
+                    ...
+                </div>
+            </div>
+
+            <div class="text-[10px] mt-4 text-[rgb(29,155,240)] ">Show More</div>
+
+
+
+
+
+
+
+        </div>
+
+
+        <!-- Who to follow box -->
+
+        <div class="  w-[250px] h-[240px] mt-3 border-gray-600 border-1 rounded-2xl  pl-3 pr-3">
+
+            <div class=" flex mt-2 pl-0.5 justify-between ">
+                <span class="text-[13px] font-bold">Who to follow</span>
+            </div>
+
+            <div class=" h-[35px] mt-4  flex  item-center ">
+                <div class="pic">
+                    <img src="images/21.png" class="w-9 h-8 rounded-full  z-20">
+
+                </div>
+                <div class=" flex justify-between w-full items-center">
+                    <div class="ml-1 flex flex-col leading-tight">
+                        <div class=" text-[12px] font-semibold ml-2 ">
+                            DG ISPR
+                        </div>
+                        <span class=" text-[10px] text-gray-400 ml-2 ">@OfficialDGISPR </span>
+                    </div>
+                    <button class="bg-white w-fit text-black px-3 py-1 rounded-full text-[8px] font-black">
+                        Follow
+                    </button>
+
+                </div>
+            </div>
+
+            <div class=" h-[35px] mt-4  flex  item-center ">
+                <div class="pic">
+                    <img src="images/25.jpg" class="w-9 h-8 rounded-full  z-20">
+
+                </div>
+                <div class=" flex justify-between w-full items-center">
+                    <div class="ml-1 flex flex-col leading-tight">
+                        <div class=" text-[12px] font-semibold ml-2 ">
+                            Mooed Parizad
+                        </div>
+                        <span class=" text-[10px] text-gray-400 ml-2 ">@MooedNj</span>
+                    </div>
+                    <button class="bg-white w-fit text-black px-3 py-1 rounded-full text-[8px] font-black">
+                        Follow
+                    </button>
+
+                </div>
+            </div>
+
+            <div class=" h-[35px] mt-4  flex  item-center ">
+                <div class="pic">
+                    <img src="images/24.jpg" class="w-9 h-8 rounded-full  z-20">
+
+                </div>
+                <div class=" flex justify-between w-full items-center">
+                    <div class="ml-1 flex flex-col leading-tight">
+                        <div class=" text-[12px] font-semibold ml-2 ">
+                            Siyasaat.pk
+                        </div>
+                        <span class=" text-[10px] text-gray-400 ml-2 ">@siasatpk</span>
+                    </div>
+                    <button class="bg-white w-fit text-black px-3 py-1 rounded-full text-[8px] font-black">
+                        Follow
+                    </button>
+
+                </div>
+            </div>
+
+            <div class="text-[10px] mt-4 text-[rgb(29,155,240)] ">Show More</div>
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+        <div class="text-[8px] mt-3  text-gray-400 ml-3 w-[220px] ">Terms of Services  |  Privacy policy  |  Cookie Policy  |  Accessibility  |  Ads info  |  More... @ 2026 ads coperation</div>
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+</body>
+
+</html>
