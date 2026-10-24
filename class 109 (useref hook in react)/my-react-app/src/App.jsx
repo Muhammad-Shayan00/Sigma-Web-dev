@@ -11,7 +11,7 @@ function App() {
   const a=useRef(0)
   useEffect(() => {
     a.current=a.current + 1;
-    console.log(`the curretn value of a is ${a.current}`)
+    console.log(`the current value of a is ${a.current}`)
    
   },)
 
